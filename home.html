@@ -1,0 +1,185 @@
+<html>
+
+<head>
+    <title>
+        Hotel Management
+    </title>
+    <link rel="stylesheet" href="text/css">
+    <style >
+        .navbar{
+            overflow:none;
+            background-color:black;
+            font-family: Arial;
+        }
+        .navbar ul{
+            overflow: auto;
+           
+           
+        }
+        .navbar ul li{
+            float:right;
+            list-style: none;
+            margin: 16px;
+            position: relative;
+            
+        }
+        .navbar li a{
+            float:none;
+            font-size: 14px;
+            color: white;
+            text-align: center;
+            padding:16px;
+            text-decoration:none;
+        }
+        
+        .navbar li a:hover{
+            color:purple;
+        }
+        .dropdown{
+            
+            float:right;
+            overflow:none;
+            
+        }
+        .dropbtn {
+            
+            float:none;
+            border: none;
+            outline: none;
+            color: white;
+            padding:16px;
+            background-color:inherit;
+            font-size: 13px 5px;
+            font-family: inherit; 
+            margin-top: 5px;
+        }
+        
+        .dropdown-content {
+            margin-right: 1000px;
+            display:none;
+            position:absolute;
+            background-color:blueviolet;
+             min-width: 160px;
+            /* box-shadow: 16px 0px rgba(0,0,0,0.2); */
+            z-index: 1;
+        }
+        
+        .dropdown-content ul a {
+            float: none;
+            color: black;
+            padding:16px;
+            text-decoration: none;
+            display:block;
+            text-align:right;
+           
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display:flex;
+        }
+
+        
+        .dropdown2{
+            
+            float:right;
+            overflow:none;
+            
+        }
+        .dropbtn2 {
+            
+            float:none;
+            border: none;
+            outline: none;
+            color: white;
+            padding:16px;
+            background-color:inherit;
+            font-size: 13px 5px;
+            font-family: inherit; 
+            margin-top: 5px;
+        }
+        
+        .dropdown2-content {
+            margin-right: 1000px;
+            display:none;
+            position:absolute;
+            background-color:blueviolet;
+             min-width: 160px;
+            /* box-shadow: 16px 0px rgba(0,0,0,0.2); */
+            z-index: 1;
+        }
+        
+        .dropdown2-content ul a {
+            float: none;
+            color: black;
+            padding:16px;
+            text-decoration: none;
+            display:block;
+            text-align:right;
+           
+        }
+        .dropdown2-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown2:hover .dropdown2-content {
+            display:flex;
+        }
+
+        
+
+    </style>
+</head>
+
+<body bgcolor="lightpink">
+    <a href="home.html">
+        <img src="logo.png" height="50" width="50" Align="left"></img></a>
+
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="login.html">Account</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <!-- <li><a href="#">Restaurant</a></li> -->
+
+
+                <div class="dropdown2">
+                    <button class="dropbtn2">Restaurant
+                      <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown2-content">
+               
+                <li><a href="#">Veg</a></li>
+                <li><a href="#">Non-veg</a></li>
+                <li><a href="#">South-Indian</a></li>
+                <li><a href="#">Punjabi</a></li>
+                </div></div>
+
+                
+                    <div class="dropdown">
+                        <button class="dropbtn">Rooms
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                   
+                    <li><a href="#">Ac Rooms</a></li>
+                    <li><a href="#">Non Ac Rooms</a></li>
+                    <li><a href="#">Luxry Rooms</a></li>
+                    <li><a href="#">Special Rooms</a></li>
+                    </div></div>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>
+        
+
+    
+    <img src="hotelbg.jpg" height="550" width="830"></img>
+
+    <!-- <h2 style="color:maroon;font-family:Cambria; margin-top:auto;"> &nbsp; <i><u> Ds Hotel</u> </i></h2> -->
+
+
+</body>
+
+</html>
