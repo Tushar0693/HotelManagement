@@ -1,0 +1,203 @@
+                                            /* CSS FOR HOME PAGE  */
+
+.bg {
+   overflow: auto;
+   
+} 
+.bg-img {
+    background-image: url(hotelbg.jpg);
+    filter:brightness(90%);
+    filter: contrast(90%);
+    filter: opacity(90%);
+} 
+.navbar{
+    overflow:none;
+    background-color:black;
+    font-family: Arial;
+}
+.navbar ul{
+    overflow: auto;
+   
+   
+}
+.navbar ul li{
+    float:right;
+    list-style: none;
+    margin: 10px;
+    position: relative;
+    margin-top: 18px;
+    
+}
+.navbar li a{
+    float:none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding:16px;
+    text-decoration:none;
+    
+}
+
+.navbar li a:hover{
+    color:red;
+    background-color:darkslateblue;
+}
+.dropdown{
+    
+    float:right;
+    overflow:none;
+    
+}
+.dropbtn {
+    
+    float:none;
+    border: none;
+    outline: none;
+    color: white;
+    padding:16px;
+    background-color:inherit;
+    font-size: 13px 5px;
+    font-family: inherit; 
+    margin-top: 4px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.dropdown-content {
+    margin-right: 1000px;
+    text-align: justify;
+    display:none;
+    position:absolute;
+    background-color:lightslategray;
+     min-width: 150px;
+    /* box-shadow: 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+.dropdown-content ul a {
+    float: none;
+    color: black;
+    padding:16px;
+    text-decoration: none;
+    display:block;
+    text-align:right;
+   
+}
+.dropdown:hover .dropdown-content {
+    display:flex;
+    flex-direction: column;
+}
+
+
+.dropdown2{
+    
+    float:right;
+    overflow:none;
+    
+}
+.dropbtn2 {
+    
+    float:none;
+    border: none;
+    outline: none;
+    color: white;
+    padding:16px;
+    background-color:inherit;
+    font-size: 13px 5px;
+    font-family: inherit; 
+    margin-top: 4px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.dropdown2-content {
+    margin-right: 1000px;
+    display:none;
+    position:absolute;
+    background-color:lightslategray;
+     min-width: 150px;
+    /* box-shadow: 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+.dropdown2-content ul a {
+    float: none;
+    color: black;
+    padding:16px;
+    text-decoration: none;
+    display:block;
+    text-align:right;
+   
+}
+.dropdown2:hover .dropdown2-content {
+    display:flex;
+    flex-direction: column;
+}
+
+
+                                                     /* CSS FOR ABOUT US  */
+
+.aboutus{
+   overflow: auto;
+} 
+.head{
+    font-size: 35px;
+    font-family: Franklin Gothic arial;
+    background-color:lightslategray;
+    color:white;
+    text-align:center;
+    text-shadow: 5px;
+}
+.head:hover{
+    color:black;
+    background-color: darkslateblue;
+}
+.intro{
+    color:purple;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color:whitesmoke;
+      
+} 
+.intro :hover{
+    color:black;
+    background-color:lightgreen;
+}
+.intro-content{
+    font-size: 36px;
+    margin-bottom: 20px;
+    }   
+    .intro-content :hover{
+        color: white;
+        background-color:lightskyblue;
+    }                                                 
+.intro-content p{
+    color: black;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.story{
+    
+    color:green;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color:black ;
+      
+} 
+.story :hover{
+    color:white;
+    background-color:purple;
+}
+.story-content{
+    font-size: 36px;
+    margin-bottom: 20px;
+    }     
+    .story-content :hover{
+        color:black;
+        background-color:lightsalmon;
+    }                                                   
+.story-content p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+}
