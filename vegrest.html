@@ -5,6 +5,7 @@
         Hotel Management
     </title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="vegrest.css">
 </head>
 
 <body bgcolor="lightpink">
@@ -28,7 +29,7 @@
                 </button>
                 <div class="dropdown2-content">
 
-                    <li><a href="vegrest.css">Veg</a></li>
+                    <li><a href="#">Veg</a></li>
                     <li><a href="#">Non-veg</a></li>
                     <li><a href="#">South-Indian</a></li>
                     <li><a href="#">Punjabi</a></li>
@@ -57,14 +58,41 @@
     </nav>
 
 
-<background class="bg">
-    <div class="bg-img">
-    <img src="hotelbg.jpg" height="575" width="1348"></img></div>
-</background>
-
-    <!-- <h2 style="color:maroon;font-family:Cambria; margin-top:auto;"> &nbsp; <i><u> Ds Hotel</u> </i></h2> -->
-
-
-</body>
-
-</html>
+    <!-- vegrest -->
+    <section id="home">
+        <h2>Welcome to Ds Hotel</h2>
+        <p>Delicious food in a cozy atmosphere.</p>
+      </section>
+      
+      <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+          <h3>Item 1</h3>
+          <p>Description of item 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <span class="price">$10.99</span>
+        </div>
+        <div class="menu-item">
+          <h3>Item 2</h3>
+          <p>Description of item 2. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <span class="price">$12.99</span>
+        </div>
+        <!-- Add more menu items here -->
+      </section>
+      
+      <section id="reservation">
+        <h2>Reservation</h2>
+        <p>Book a table and enjoy a wonderful dining experience.</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+          <label for="guests">Number of Guests:</label>
+          <input type="number" id="guests" name="guests" required>
+          <button type="submit">Make Reservation</button>
+        </form>
+      </section>

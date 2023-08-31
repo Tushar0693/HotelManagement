@@ -5,6 +5,7 @@
    
 } 
 .bg-img {
+    margin-top: 10px;
     background-image: url(hotelbg.jpg);
     filter:brightness(70%);
     /* filter: contrast(90%); */
@@ -12,9 +13,9 @@
 } 
 .navbar{
     overflow:none;
-    background-color:black;
+    background-color:violet ;
     font-family: Arial;
-    margin-left: 50px;
+    margin-left: 0px;
     
 }
 .navbar ul{
@@ -25,7 +26,7 @@
 .navbar ul li{
     float:right;
     list-style: none;
-    margin: 10px;
+    margin: 8px;
     position: relative;
     margin-top: 18px;
     
@@ -38,6 +39,23 @@
     padding:16px;
     text-decoration:none;
     
+}
+.dshotel{
+    /* float:none; */
+    font-size: 24px;
+    text-align:left;
+    padding:16px;
+   
+    margin-top: -71px;
+    /* margin-right: 85%; */
+    margin-left: -0px;
+
+}
+.dshotel a{
+    color:maroon;
+    text-decoration:none;
+    /* background-color:black; */
+    font-family:'Lucida Sans';
 }
 
 .navbar li a:hover{

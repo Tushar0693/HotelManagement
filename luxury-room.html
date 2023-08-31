@@ -1,12 +1,10 @@
-<html>
-
+<!DOCTYPE html>
 <head>
-    <title>
-        Hotel Management
-    </title>
+    <title>Hotel Booking - AC Room</title>
+    <link rel="stylesheet" href="acroom.css">
     <link rel="stylesheet" href="home.css">
-</head>
 
+</head>
 <body bgcolor="lightpink">
     <a href="home.html">
         <logo class = "star"> 
@@ -14,7 +12,7 @@
             <img src="logo2.png" height="45" width="70" Align="left"></img></a>
         </logo>
 
-
+                    <!-- navigation -->
     <nav class="navbar">
         <ul>
             <li><a href="login.html">Account</a></li>
@@ -28,7 +26,7 @@
                 </button>
                 <div class="dropdown2-content">
 
-                    <li><a href="vegrest.css">Veg</a></li>
+                    <li><a href="#">Veg</a></li>
                     <li><a href="#">Non-veg</a></li>
                     <li><a href="#">South-Indian</a></li>
                     <li><a href="#">Punjabi</a></li>
@@ -43,10 +41,10 @@
                 </button>
                 <div class="dropdown-content">
 
-                    <li><a href="acroom.html">Ac-Rooms</a></li>
-                    <li><a href="non-acroom.html">Non Ac-Rooms</a></li>
-                    <li><a href="luxury-room.html">Luxry-Rooms</a></li>
-                    <li><a href="special-room.html">Special-Rooms</a></li>
+                    <li><a href="#">Ac-Rooms</a></li>
+                    <li><a href="#">Non Ac-Rooms</a></li>
+                    <li><a href="#">Luxry-Rooms</a></li>
+                    <li><a href="#">Special-Rooms</a></li>
                 </div>
             </div>
             <li><a href="home.html">Home</a></li>
@@ -55,16 +53,17 @@
             <a href="home.html"><b>Ds Hotel</b></a>
         </div>
     </nav>
+                                 <!--Ac room -->
 
-
-<background class="bg">
-    <div class="bg-img">
-    <img src="hotelbg.jpg" height="575" width="1348"></img></div>
-</background>
-
-    <!-- <h2 style="color:maroon;font-family:Cambria; margin-top:auto;"> &nbsp; <i><u> Ds Hotel</u> </i></h2> -->
-
-
-</body>
-
-</html>
+    <section class="room">
+      <h2>Luxury Room</h2>
+      <img src="Luxury-room.png" alt="AC Room">
+      <p>Enjoy your stay in our comfortable LUXURY room with modern amenities.</p>
+      <div class="booking">
+        <label for="check-in">Check-in date:</label>
+        <input type="date" id="check-in" name="check-in">
+        <label for="check-out">Check-out date:</label>
+        <input type="date" id="check-out" name="check-out">
+        <button class="book-btn">Book Now</button>
+      </div>
+    </section>

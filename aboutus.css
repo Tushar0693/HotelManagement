@@ -2,6 +2,7 @@
 
                                                     .aboutus {
                                                         overflow: auto;
+                                                        
                                                     }
 
                                                     .head {
@@ -11,6 +12,7 @@
                                                         color: white;
                                                         text-align: center;
                                                         text-shadow: 5px;
+                                                        margin-top: 10px;
                                                     }
 
                                                     .head:hover {
