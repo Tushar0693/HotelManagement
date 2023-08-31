@@ -1,0 +1,83 @@
+                                                    /* CSS FOR ABOUT US  */
+
+                                                    .aboutus {
+                                                        overflow: auto;
+                                                    }
+
+                                                    .head {
+                                                        font-size: 35px;
+                                                        font-family: Franklin Gothic arial;
+                                                        background-color: lightslategray;
+                                                        color: white;
+                                                        text-align: center;
+                                                        text-shadow: 5px;
+                                                    }
+
+                                                    .head:hover {
+                                                        color: black;
+                                                        background-color: darkslateblue;
+                                                    }
+
+                                                    .intro {
+                                                        color: purple;
+                                                        font-size: 30px;
+                                                        margin-bottom: 20px;
+                                                        background-color: whitesmoke;
+
+                                                    }
+
+                                                    .intro :hover {
+                                                        color: black;
+                                                        background-color: lightgreen;
+                                                    }
+
+                                                    .intro-content {
+                                                        font-size: 36px;
+                                                        margin-bottom: 20px;
+                                                    }
+
+                                                    .intro-content :hover {
+                                                        color: white;
+                                                        background-color: lightskyblue;
+                                                    }
+
+                                                    .intro-content p {
+                                                        color: black;
+                                                        font-size: 18px;
+                                                        line-height: 1.8;
+                                                    }
+
+                                                    .story {
+
+                                                        color: green;
+                                                        font-size: 30px;
+                                                        margin-bottom: 20px;
+                                                        background-color: black;
+
+                                                    }
+
+                                                    .story :hover {
+                                                        color: white;
+                                                        background-color: purple;
+                                                    }
+
+                                                    .story-content {
+                                                        font-size: 36px;
+                                                        margin-bottom: 20px;
+                                                    }
+
+                                                    .story-content :hover {
+                                                        color: black;
+                                                        background-color: lightsalmon;
+                                                    }
+
+                                                    .story-content p {
+                                                        color: white;
+                                                        font-size: 18px;
+                                                        line-height: 1.8;
+                                                    }
+
+                                                    .star_image {
+                                                        border-radius: 50%;
+
+                                                    }
