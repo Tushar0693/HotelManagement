@@ -1,18 +1,21 @@
 <!DOCTYPE html>
+
 <head>
     <title>Hotel Booking - AC Room</title>
     <link rel="stylesheet" href="acroom.css">
     <link rel="stylesheet" href="home.css">
 
 </head>
+
 <body bgcolor="lightpink">
     <a href="home.html">
-        <logo class = "star"> 
+        <logo class="star">
 
-            <img src="logo2.png" height="45" width="70" Align="left"></img></a>
-        </logo>
+            <img src="logo2.png" height="45" width="70" Align="left"></img>
+    </a>
+    </logo>
 
-                    <!-- navigation -->
+    <!-- navigation -->
     <nav class="navbar">
         <ul>
             <li><a href="login.html">Account</a></li>
@@ -31,7 +34,7 @@
                     <li><a href="#">South-Indian</a></li>
                     <li><a href="#">Punjabi</a></li>
                 </div>
-                
+
             </div>
 
 
@@ -41,10 +44,10 @@
                 </button>
                 <div class="dropdown-content">
 
-                    <li><a href="#">Ac-Rooms</a></li>
-                    <li><a href="#">Non Ac-Rooms</a></li>
-                    <li><a href="#">Luxry-Rooms</a></li>
-                    <li><a href="#">Special-Rooms</a></li>
+                    <li><a href="acroom.html">Ac-Rooms</a></li>
+                    <li><a href="non-acroom.html">Non Ac-Rooms</a></li>
+                    <li><a href="luxury-room.html">Luxry-Rooms</a></li>
+                    <li><a href="special-room.html">Special-Rooms</a></li>
                 </div>
             </div>
             <li><a href="home.html">Home</a></li>
@@ -53,17 +56,30 @@
             <a href="home.html"><b>Ds Hotel</b></a>
         </div>
     </nav>
-                                 <!--Ac room -->
+
+    <align=right>
+    
+    <!--Ac room -->
+
 
     <section class="room">
-      <h2>AC Room</h2>
-      <img src="ac-room.png" alt="AC Room">
-      <p>Enjoy your stay in our comfortable AC room with modern amenities.</p>
-      <div class="booking">
-        <label for="check-in">Check-in date:</label>
-        <input type="date" id="check-in" name="check-in">
-        <label for="check-out">Check-out date:</label>
-        <input type="date" id="check-out" name="check-out">
-        <button class="book-btn">Book Now</button>
-      </div>
+        <h2>AC Room</h2>
+        <div class="marquee">
+            <marquee behavior="scroll" direction="up" scrollamount="6">
+                <a href="non-acroom.html"> <img src="non-ac-room.png" height="150" width="250"></img></a> <br>Non-ac-room <br>
+                <a href="luxury-room.html"><img src="Luxury-room.png" height="150" width="250"></img></a><br>Luxury-room <br>
+                <a href="special-room.html"><img src="special-room.jpg" height="150" width="250"></img></a><br>Special-room 
+
+            </marquee>
+        </div>
+        <img src="ac-room.png" alt="AC Room" height="380" width="900">
+        
+        <p>Enjoy your stay in our comfortable AC room with modern amenities.</p>
+        <div class="booking">
+            <label for="check-in">Check-in date:</label>
+            <input type="date" id="check-in" name="check-in">
+            <label for="check-out">Check-out date:</label>
+            <input type="date" id="check-out" name="check-out">
+            <button class="book-btn">Book Now</button>
+        </div>
     </section>

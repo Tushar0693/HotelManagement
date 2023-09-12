@@ -1,28 +1,28 @@
-.section {
-    padding: 50px;
-  }
-  
-  .menu-item {
-    margin-bottom: 20px;
-  }
-  
-  .price {
-    color: #333;
-    font-weight: bold;
-  }
-  
-  form label, form input, form button {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  form input, form button {
-    padding: 5px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
+section {
+  /* padding: 20px; */
+  margin-left: 20px;
+}
+
+.menu-item {
+  margin-bottom: 5px;
+}
+
+.price {
+  color: #333;
+  font-weight: bold;
+}
+
+form label, form input, form button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input, form button {
+  padding: 5px;
+}
+.cart {
+ 
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}

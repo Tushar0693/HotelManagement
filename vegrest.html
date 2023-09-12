@@ -6,6 +6,8 @@
     </title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="vegrest.css">
+    <script src="vegrest.js"></script>
+  
 </head>
 
 <body bgcolor="lightpink">
@@ -29,10 +31,10 @@
                 </button>
                 <div class="dropdown2-content">
 
-                    <li><a href="#">Veg</a></li>
-                    <li><a href="#">Non-veg</a></li>
-                    <li><a href="#">South-Indian</a></li>
-                    <li><a href="#">Punjabi</a></li>
+                    <li><a href="vegrest.html">Veg</a></li>
+                    <li><a href="vegrest.html">Non-veg</a></li>
+                    <li><a href="vegrest.html">South-Indian</a></li>
+                    <li><a href="vegrest.html">Punjabi</a></li>
                 </div>
                 
             </div>
@@ -58,27 +60,16 @@
     </nav>
 
 
-    <!-- vegrest -->
+
+
+    <!-- <h2 style="color:maroon;font-family:Cambria; margin-top:auto;"> &nbsp; <i><u> Ds Hotel</u> </i></h2> -->
+
     <section id="home">
-        <h2>Welcome to Ds Hotel</h2>
-        <p>Delicious food in a cozy atmosphere.</p>
+        <center> <h2>Welcome to Ds Hotel</h2>
+        <p>Delicious food in a cozy atmosphere.</p></center>
       </section>
-      
-      <section id="menu">
-        <h2>Menu</h2>
-        <div class="menu-item">
-          <h3>Item 1</h3>
-          <p>Description of item 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <span class="price">$10.99</span>
-        </div>
-        <div class="menu-item">
-          <h3>Item 2</h3>
-          <p>Description of item 2. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-          <span class="price">$12.99</span>
-        </div>
-        <!-- Add more menu items here -->
-      </section>
-      
+
+
       <section id="reservation">
         <h2>Reservation</h2>
         <p>Book a table and enjoy a wonderful dining experience.</p>
@@ -96,3 +87,37 @@
           <button type="submit">Make Reservation</button>
         </form>
       </section>
+      
+      <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+          <h3>Item 1</h3>
+          <p>Mix Veg. &nbsp;&nbsp;
+          <span class="price">$10.99</span></p>
+          <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <h3>Item 2</h3>
+          <p>Syahi Paneer &nbsp;&nbsp;
+          <span class="price">$12.99</span></p>
+          <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+        </div>
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: $<span id="cartTotal">0</span></p>
+            <button onclick="Pay('Product 1', 10)">Pay</button>
+        </div>
+        <!-- add more menu items -->
+    </section>
+  
+    
+
+
+
+
+
+
+</body>
+
+</html>
