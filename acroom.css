@@ -24,6 +24,10 @@
     box-sizing: border-box;
     padding: 10px 0;
 }
+/* .marquee marquee:hover marquee{
+  animation-play-state: paused;
+} */
+
 
   .room img {
     /* max-width: 80%; */
@@ -46,6 +50,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 1rem;
+  
   }
   
   .book-btn {

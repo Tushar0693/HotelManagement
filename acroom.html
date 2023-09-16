@@ -4,7 +4,7 @@
     <title>Hotel Booking - AC Room</title>
     <link rel="stylesheet" href="acroom.css">
     <link rel="stylesheet" href="home.css">
-
+<script src="acroom.js"></script>
 </head>
 
 <body bgcolor="lightpink">
@@ -65,7 +65,7 @@
     <section class="room">
         <h2>AC Room</h2>
         <div class="marquee">
-            <marquee behavior="slide" direction="up" scrollamount="6">
+            <marquee behavior="slide" direction="up" scrollamount="7" onmouseover="javascript:stop()" onmouseout="javascript:start()" >
                 <a href="non-acroom.html"> <img src="non-ac-room.png" height="140" width="250"></img></a> <br>Non-ac-room <br>
                 <a href="luxury-room.html"><img src="Luxury-room.png" height="140" width="250"></img></a><br>Luxury-room <br>
                 <a href="special-room.html"><img src="special-room.jpg" height="140" width="250"></img></a><br>Special-room 
@@ -77,9 +77,9 @@
         <p>Enjoy your stay in our comfortable AC room with modern amenities.</p>
         <div class="booking">
             <label for="check-in">Check-in date:</label>
-            <input type="date" id="check-in" name="check-in">
+            <input type="date" id="check-in" name="check-in" required>
             <label for="check-out">Check-out date:</label>
-            <input type="date" id="check-out" name="check-out">
+            <input type="date" id="check-out" name="check-out" required>
             <button class="book-btn">Book Now</button>
         </div>
     </section>
